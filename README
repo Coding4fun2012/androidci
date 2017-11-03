@@ -1,0 +1,13 @@
+This is a android ci docker
+
+Dockfile is used for build jenkins image 
+Docker-compse is  up file
+
+1) Build jenkins image:
+
+sudo docker build -t ljm/jenkinsmake .
+
+2) luanch ci:
+sudo docker-compose up
+
+
